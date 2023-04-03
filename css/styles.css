@@ -2,6 +2,8 @@
   --backgr-color: #ffffff;
   --link-color: #4d5ae5;
   --hover-color: #404bbf;
+  --logo-color: #4d5ae5;
+  --studio-color: #2e2f42;
 }
 
 body {
@@ -31,20 +33,26 @@ a:focus {
   color: var(--hover-color);
 }
 .logo-web {
-  font-family: raleway, sans-serif;
-  font-size: 800;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-color);
+  text-decoration: none;
+}
+.link {
   text-decoration: none;
 }
 .studio-top {
-  color: #2e2f42;
+  color: var(--studio-color);
 }
 .studio-bottom {
   color: #f4f4fd;
 }
-.menu-list {
-  font-weight: 500;
+.list {
+  list-style: none;
 }
 .adress {
   font-weight: 400;
