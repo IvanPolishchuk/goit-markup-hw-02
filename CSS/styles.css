@@ -1,0 +1,57 @@
+:root {
+  --backgr-color: #ffffff;
+  --link-color: #4d5ae5;
+  --hover-color: #404bbf;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  color: #434455;
+  background-color: rgba(252, 252, 252, 1);
+}
+button {
+  background-color: var(link-color);
+  color: var(backgr-color);
+  font-weight: 500;
+}
+button:hover {
+  background-color: var(--hover-color);
+}
+button:focus {
+  background-color: var(--hover-color);
+}
+a {
+  color: #2e2f42;
+}
+a:hover {
+  color: var(--hover-color);
+}
+a:focus {
+  color: var(--hover-color);
+}
+.logo-web {
+  font-family: raleway, sans-serif;
+  font-size: 800;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.studio-top {
+  color: #2e2f42;
+}
+.studio-bottom {
+  color: #f4f4fd;
+}
+.menu-list {
+  font-weight: 500;
+}
+.adress {
+  font-weight: 400;
+  color: #434455;
+  font-style: normal;
+}
+.hero {
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
