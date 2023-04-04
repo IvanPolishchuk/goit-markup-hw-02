@@ -4,13 +4,13 @@
   --hover-color: #404bbf;
   --logo-color: #4d5ae5;
   --studio-color: #2e2f42;
-  --address-color: #434455;
+  --text-color: #434455;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: var(backgr-color);
+  background-color: var(--backgr-color);
 }
 
 button {
@@ -47,7 +47,7 @@ a:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--link-color);
+  color: var(--logo-color);
 }
 
 /* .logo-web {
@@ -107,5 +107,5 @@ a:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--address-color);
+  color: var(--text-color);
 }
