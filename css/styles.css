@@ -82,9 +82,17 @@ a:focus {
 }
 
 .hero {
+  background-color: var(--studio-color);
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.02em;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .nav-menu-item {
@@ -112,4 +120,13 @@ a:focus {
 
 .adr {
   font-style: normal;
+}
+.hero-button {
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }
