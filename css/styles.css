@@ -121,6 +121,7 @@ a:focus {
 .adr {
   font-style: normal;
 }
+
 .hero-button {
   background-color: #4d5ae5;
   font-family: inherit;
@@ -129,4 +130,22 @@ a:focus {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+}
+
+.sect-second {
+  visibility: hidden;
+}
+
+.list-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--studio-color);
+}
+
+.paragr-one {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
