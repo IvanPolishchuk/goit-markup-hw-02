@@ -1,3 +1,4 @@
+/* Root block */
 :root {
   --backgr-color: #ffffff;
   --link-color: #4d5ae5;
@@ -132,9 +133,9 @@ a:focus {
   cursor: pointer;
 }
 
-.sect-second {
+/* .about {
   visibility: hidden;
-}
+} */
 
 .list-item {
   font-weight: 500;
@@ -148,4 +149,22 @@ a:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.chapter {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--studio-color);
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: #FFFFFF;
+
 }
