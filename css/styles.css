@@ -177,16 +177,6 @@ a:focus {
   list-style: none;
 }
 
-filter-button:hover {
-  color: #FFFFFF;
-  background-color: #404BBF;
-}
-
-filter-button:focus {
-  color: #FFFFFF;
-  background-color: #404bbf;
-}
-
 .filter-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -196,6 +186,16 @@ filter-button:focus {
   color: var(--link-color);
   background-color: var(--filter-button-color);
   cursor: pointer;
+}
+
+.filter-button:hover {
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
+
+.filter-button:focus {
+  color: #FFFFFF;
+  background-color: #404bbf;
 }
 
 .paragraph {
