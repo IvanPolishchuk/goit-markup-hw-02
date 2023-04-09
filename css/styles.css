@@ -177,12 +177,12 @@ a:focus {
   list-style: none;
 }
 
-.filter-button:hover {
+filter-button:hover {
   color: #FFFFFF;
   background-color: #404BBF;
 }
 
-.filter-button:focus {
+filter-button:focus {
   color: #FFFFFF;
   background-color: #404bbf;
 }
