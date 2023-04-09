@@ -178,11 +178,12 @@ a:focus {
 }
 
 .filter-button:hover :focus {
+  color: #FFFFFF;
   background-color: #404BBF;
 }
 
 .filter-button {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -190,4 +191,11 @@ a:focus {
   color: var(--link-color);
   background-color: var(--filter-button-color);
   cursor: pointer;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
