@@ -6,6 +6,7 @@
   --logo-color: #4d5ae5;
   --studio-color: #2e2f42;
   --text-color: #434455;
+  --filter-button-color: #f4f4fd;
 }
 
 body {
@@ -170,4 +171,23 @@ a:focus {
 
 .footer {
   background-color: var(--studio-color);
+}
+
+.filter-list {
+  list-style: none;
+}
+
+.filter-button:hover :focus {
+  background-color: #404BBF;
+}
+
+.filter-button {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--link-color);
+  background-color: var(--filter-button-color);
+  cursor: pointer;
 }
